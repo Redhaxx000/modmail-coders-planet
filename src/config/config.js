@@ -23,7 +23,7 @@ module.exports = {
     }
   },
   credits: {
-    name: 'Izzy | Coders Planet',
-    website: 'https://discord.gg/codersplanet'
+    name: '/vanir',
+    website: 'https://discord.gg/vanir'
   }
 }; 
