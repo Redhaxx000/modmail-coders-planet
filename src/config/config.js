@@ -1,7 +1,7 @@
 module.exports = {
   prefix: process.env.PREFIX || '!',
   embedColor: '#5865F2', // Discord Blurple
-  footer: 'Made by Izzy | Coders Planet',
+  footer: 'discord.gg/vanir',
   statusMessages: {
     online: 'DM me to create a ticket!',
     idle: 'Watching for new ModMail tickets'
