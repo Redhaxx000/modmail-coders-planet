@@ -8,15 +8,15 @@ module.exports = {
   execute(client) {
     // Log that the bot is online
     logger.info(`Ready! Logged in as ${client.user.tag}`);
-    logger.info('ModMail bot created by Izzy | Coders Planet');
+    logger.info('discord.gg/vanir');
     
     // Set bot status - something clearer about DMing to create tickets
     client.user.setPresence({
       activities: [{ 
-        name: 'DM me to create a ticket!',
+        name: 'DM me for support!',
         type: ActivityType.Custom 
       }],
-      status: 'online'
+      status: 'idle'
     });
 
     // Check for required environment variables
