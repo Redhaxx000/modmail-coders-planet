@@ -38,8 +38,7 @@ module.exports = {
 ║                                                               ║
 ║   ModMail Bot is now online!                                  ║
 ║                                                               ║
-║   Created by: Izzy | Coders Planet                            ║
-║   Discord: https://discord.gg/codersplanet                    ║
+║                    
 ║                                                               ║
 ║   Serving ${client.guilds.cache.size} servers and ${client.users.cache.size} users                      ║
 ║                                                               ║
@@ -50,7 +49,7 @@ module.exports = {
     setTimeout(() => {
       client.user.setPresence({
         activities: [{ 
-          name: 'DM me to create a ticket!',
+          name: 'DM me for support',
           type: ActivityType.Playing
         }],
         status: 'online'
